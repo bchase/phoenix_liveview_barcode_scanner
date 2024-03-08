@@ -1,4 +1,4 @@
-defmodule Phoenix.LiveView.BarcodeScanner do
+defmodule PhoenixLiveViewBarcodeScanner.BarcodeScanner do
   use Phoenix.LiveComponent
 
   alias Phoenix.LiveView.JS

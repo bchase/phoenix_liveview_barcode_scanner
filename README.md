@@ -27,7 +27,7 @@ end
 defmodule AppWeb.SomePage do
   use Phoenix.LiveView
 
-  alias Phoenix.LiveView.BarcodeScanner
+  alias PhoenixLiveViewBarcodeScanner.BarcodeScanner
 
   # ...
 
