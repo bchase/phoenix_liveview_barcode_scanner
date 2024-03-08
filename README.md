@@ -2,7 +2,7 @@
 
 ## Capture USB barcode scanner HID input in Phoenix LiveView
 
-A `Phoenix.LiveView.BarcodeScanner` live component is provided, which will render a hidden form that holds input focus as long as it's being rendered.
+A `BarcodeScanner` live component is provided, which will render a hidden form that holds input focus as long as it's being rendered.
 
 Scanned barcodes are then sent to the parent component via `handle_info/2`.
 
