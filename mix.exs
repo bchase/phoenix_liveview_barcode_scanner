@@ -41,6 +41,6 @@ defmodule PhoenixLiveViewBarcodeScanner.MixProject do
   end
 
   defp github_url() do
-    "https://github.com/bchase/phoenix_liveview_barcode_scanner/tree/master"
+    "https://github.com/bchase/phoenix_liveview_barcode_scanner"
   end
 end
