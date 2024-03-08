@@ -25,6 +25,8 @@ defmodule PhoenixLiveViewBarcodeScanner.MixProject do
     [
       {:phoenix, "~> 1.7.2"},
       {:phoenix_live_view, "~> 0.18.16"},
+
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
     ]
   end
 
