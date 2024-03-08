@@ -1,4 +1,4 @@
-defmodule Phoenix.LiveView.BarcodeScanner.MixProject do
+defmodule PhoenixLiveViewBarcodeScanner.MixProject do
   use Mix.Project
 
   def project do
