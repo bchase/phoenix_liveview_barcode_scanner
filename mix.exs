@@ -4,7 +4,7 @@ defmodule PhoenixLiveViewBarcodeScanner.MixProject do
   def project do
     [
       app: :phoenix_liveview_barcode_scanner,
-      version: "0.3.0",
+      version: "0.3.1",
       elixir: "~> 1.16",
       start_permanent: false, # Mix.env() == :prod,
       build_embedded: false, # Mix.env == :prod,
@@ -23,8 +23,8 @@ defmodule PhoenixLiveViewBarcodeScanner.MixProject do
 
   defp deps do
     [
-      {:phoenix, "~> 1.7.2"},
-      {:phoenix_live_view, "~> 0.18.16"},
+      {:phoenix, ">= 1.7.2"},
+      {:phoenix_live_view, ">= 0.18.16"},
 
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
     ]
