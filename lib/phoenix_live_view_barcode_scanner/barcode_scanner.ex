@@ -7,7 +7,7 @@ defmodule PhoenixLiveViewBarcodeScanner.BarcodeScanner do
   def render(assigns) do
     ~H"""
     <div>
-      <%= render_block(@inner_block, []) %>
+      <%= render_slot(@inner_block, []) %>
 
       <div style="width: 0; overflow: hidden">
         <.form

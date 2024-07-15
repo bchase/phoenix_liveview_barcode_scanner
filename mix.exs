@@ -23,8 +23,8 @@ defmodule PhoenixLiveViewBarcodeScanner.MixProject do
 
   defp deps do
     [
-      {:phoenix, ">= 1.7.2"},
-      {:phoenix_live_view, ">= 0.18.16"},
+      {:phoenix, ">= 1.7.12"},
+      {:phoenix_live_view, ">= 0.20.2"},
 
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
     ]
